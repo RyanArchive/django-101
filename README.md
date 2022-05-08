@@ -16,6 +16,21 @@ Django 101 Django for absolute beginners
 
 <br>
 
+## Installtion
+
+```
+cd django-101
+py -m pipenv shell
+py -m pip install django
+py -m pip install sorl-thumbnail
+py -m pip install pillow
+py manage.py migrate
+py manage.py createsuperuser
+py manage.py runserver 0.0.0.0:8000
+```
+
+<br>
+
 ## Language and Tools
 
 - Django
