@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Detail View
+{% endblock %}
+
+{% block body %}
+
+    <div class="container py-5">
+        <h4>{{ object.text }}</h4>
+        <div class="px-5 mx-5 border mt-5">
+            <img src="{{ object.image.url }}" style="width: 100%;">
+        </div>
+    </div>
+    
+{% endblock %}
