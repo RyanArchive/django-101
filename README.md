@@ -38,3 +38,8 @@ py manage.py runserver 0.0.0.0:8000
 - Bootstrap
 - Any text editor (e.g. VS Code, Sublime)
 - Terminal
+
+### Versions Used
+- Python 3.10.4
+- Sorl-Thumbnail 12.8.0
+- Pillow 9.1.0
